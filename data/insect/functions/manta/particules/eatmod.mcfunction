@@ -1,0 +1,2 @@
+execute align xzy positioned ~.5 ~.4 ~.5 run particle minecraft:dust 0.3 0.5 0.3 0.3 ~ ~ ~ 0.25 0.25 0.25 0.001 1
+execute align xzy positioned ~.5 ~0.2 ~.5 run particle minecraft:block dead_bush ~ ~ ~ 0.1 0.2 0.1 0.00001 1

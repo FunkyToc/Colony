@@ -1,0 +1,1 @@
+execute if score manta_enable Insect_Option matches 1 run function insect:manta/loop
