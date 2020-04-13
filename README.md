@@ -1,5 +1,5 @@
 # Colony
-A Minecraft Datapack to add small animals. It's pure cosmetics.
+A Minecraft Datapack to add small animals. Some are cosmetics, other are ravagers.
 
 # Requires 
 - Minecraft 1.13 / 1.14 / 1.15 / 1.16
