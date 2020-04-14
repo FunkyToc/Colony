@@ -1,0 +1,1 @@
+give @s minecraft:kelp{display:{Name:"{\"text\":\"Vorager\",\"color\":\"dark_green\",\"bold\":\"true\"}",Lore:["This little insect lives in wood and forests.","Population can be contains using spruce leaves and cobweb.","Nest are passive if you do not break it."]},vorager:true} 1
