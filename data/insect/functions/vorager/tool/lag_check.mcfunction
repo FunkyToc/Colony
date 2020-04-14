@@ -1,5 +1,6 @@
 scoreboard players set vora_count Insect_Timer 0
 execute as @e[type=minecraft:bat,tag=vorager] run scoreboard players add vora_count Insect_Timer 1
+scoreboard players operation vora_count Insect_Timer += #1 fktool
 scoreboard players operation vora_count Insect_Option = vora_count Insect_Timer
 execute if score vora_count Insect_Option > vora_maxcount Insect_Option run function insect:vorager/tool/lag_clear_vorager
 
