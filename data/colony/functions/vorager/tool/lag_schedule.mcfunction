@@ -1,0 +1,1 @@
+schedule function colony:vorager/tool/lag_check 5t
