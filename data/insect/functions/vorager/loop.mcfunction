@@ -1,5 +1,5 @@
 # vorager animation
-execute as @e[type=minecraft:bat,tag=vorager] at @s run tp @e[type=minecraft:armor_stand,tag=vorager,limit=1,sort=nearest,distance=..1] ~ ~ ~0.3 ~140 ~
+execute as @e[type=minecraft:bat,tag=vorager] at @s run tp @e[type=minecraft:armor_stand,tag=vorager,limit=1,sort=nearest,distance=..2] ~ ~ ~0.3 ~140 ~
 
 # nest spawn
 function insect:vorager/action/log_check
