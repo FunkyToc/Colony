@@ -1,1 +1,0 @@
-execute if score vora_enable Insect_Option matches 1 run function insect:vorager/loop

@@ -1,0 +1,10 @@
+execute unless entity @e[type=area_effect_cloud,tag=vora_eater,distance=..3] if block ~.5 ~ ~ #colony:vorager_food positioned ~.5 ~ ~ align xyz positioned ~0.5 ~ ~0.5 run function colony:vorager/action/place_eater
+execute unless entity @e[type=area_effect_cloud,tag=vora_eater,distance=..3] if block ~-.5 ~ ~ #colony:vorager_food positioned ~-.5 ~ ~ align xyz positioned ~0.5 ~ ~0.5 run function colony:vorager/action/place_eater
+execute unless entity @e[type=area_effect_cloud,tag=vora_eater,distance=..3] if block ~ ~ ~.5 #colony:vorager_food positioned ~ ~ ~.5 align xyz positioned ~0.5 ~ ~0.5 run function colony:vorager/action/place_eater
+execute unless entity @e[type=area_effect_cloud,tag=vora_eater,distance=..3] if block ~ ~ ~-.5 #colony:vorager_food positioned ~ ~ ~-.5 align xyz positioned ~0.5 ~ ~0.5 run function colony:vorager/action/place_eater
+execute unless entity @e[type=area_effect_cloud,tag=vora_eater,distance=..3] if block ~.5 ~ ~.5 #colony:vorager_food positioned ~.5 ~ ~.5 align xyz positioned ~0.5 ~ ~0.5 run function colony:vorager/action/place_eater
+execute unless entity @e[type=area_effect_cloud,tag=vora_eater,distance=..3] if block ~-.5 ~ ~.5 #colony:vorager_food positioned ~-.5 ~ ~.5 align xyz positioned ~0.5 ~ ~0.5 run function colony:vorager/action/place_eater
+execute unless entity @e[type=area_effect_cloud,tag=vora_eater,distance=..3] if block ~.5 ~ ~-.5 #colony:vorager_food positioned ~.5 ~ ~-.5 align xyz positioned ~0.5 ~ ~0.5 run function colony:vorager/action/place_eater
+execute unless entity @e[type=area_effect_cloud,tag=vora_eater,distance=..3] if block ~ ~-0.5 ~ #colony:vorager_food positioned ~ ~-0.5 ~ align xyz positioned ~0.5 ~ ~0.5 run function colony:vorager/action/place_eater
+execute unless entity @e[type=area_effect_cloud,tag=vora_eater,distance=..3] if block ~ ~0.5 ~ #colony:vorager_food positioned ~ ~0.5 ~ align xyz positioned ~0.5 ~ ~0.5 run function colony:vorager/action/place_eater
+execute unless entity @e[type=area_effect_cloud,tag=vora_eater,distance=..3] if block ~ ~0.8 ~ #colony:vorager_food positioned ~ ~0.8 ~ align xyz positioned ~0.5 ~ ~0.5 run function colony:vorager/action/place_eater

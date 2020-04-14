@@ -1,0 +1,1 @@
+function colony:vorager/tool/kill_all

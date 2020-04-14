@@ -1,6 +1,6 @@
 {
     "values": [
         "fktool:load",
-        "insect:load"
+        "colony:load"
     ]
 }

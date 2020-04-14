@@ -24,7 +24,7 @@ scoreboard players set vora_enable Insect_Option 1
 # /!\  IF YOU ENCOUNTER LAGS, LOW DOWN THIS VALUE  /!\ 
 scoreboard players set vora_maxcount Insect_Option 128
 
-# Max voragers entity (entity/map)
+# Max nests entity (entity/map)
 # Recommended : 16-64
 # Min : 0
 # Max : 999+
