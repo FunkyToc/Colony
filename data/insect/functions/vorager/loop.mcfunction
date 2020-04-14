@@ -13,11 +13,13 @@ execute as @e[type=minecraft:item,nbt={Item:{id:"minecraft:kelp",Count:1b,tag:{v
 execute as @e[type=minecraft:bat,tag=vorager,scores={Insect_Timer=..0}] at @s positioned ~ ~0.2 ~ run function insect:vorager/action/find_food
 execute as @e[type=minecraft:area_effect_cloud,tag=vora_eater] at @s run function insect:vorager/action/eating
 
-# reset
-execute as @e[type=minecraft:area_effect_cloud,tag=vora_eater] at @s unless entity @e[type=minecraft:bat,tag=vorager,distance=..2.1] run kill @s
-execute as @e[type=minecraft:armor_stand,tag=vorager] at @s unless entity @e[type=minecraft:bat,tag=vorager,distance=..2.1] run function insect:vorager/tool/kill
-execute as @e[type=minecraft:bat,tag=vorager] at @s unless entity @e[type=minecraft:armor_stand,tag=vorager,distance=..2.1] run function insect:vorager/tool/kill
+# anti spam
+execute as @e[type=minecraft:area_effect_cloud,tag=vora_eater] at @s unless entity @e[type=minecraft:bat,tag=vorager,distance=..2.01] run kill @s
+execute as @e[type=minecraft:armor_stand,tag=vorager] at @s unless entity @e[type=minecraft:bat,tag=vorager,distance=..2.01] run function insect:vorager/tool/kill
+execute as @e[type=minecraft:bat,tag=vorager] at @s unless entity @e[type=minecraft:armor_stand,tag=vorager,distance=..2.01] run function insect:vorager/tool/kill
 execute as @e[type=minecraft:bat,tag=vorager,scores={Insect_Timer=..-1}] if score @s Insect_Timer <= vora_death Insect_Timer run function insect:vorager/tool/kill
 execute as @e[type=minecraft:bat,tag=vorager] at @s if block ~ ~0.3 ~ minecraft:cobweb run function insect:vorager/tool/kill
 execute as @e[type=minecraft:bat,tag=vorager] at @s unless entity @e[type=minecraft:area_effect_cloud,tag=vora_eater,distance=..1] run scoreboard players remove @s Insect_Timer 1
+
+# reset
 scoreboard players reset @a Insect_DmgDealt
