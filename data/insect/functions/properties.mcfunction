@@ -18,14 +18,14 @@
 scoreboard players set vora_enable Insect_Option 1
 
 # Max voragers entity (entity/map)
-# Recommended : 128-256
+# Recommended : 64-256
 # Min : 0
 # Max : 999+
 # /!\  IF YOU ENCOUNTER LAGS, LOW DOWN THIS VALUE  /!\ 
-scoreboard players set vora_maxcount Insect_Option 256
+scoreboard players set vora_maxcount Insect_Option 128
 
 # Max voragers entity (entity/map)
-# Recommended : 16-128
+# Recommended : 16-64
 # Min : 0
 # Max : 999+
 # /!\  IF YOU ENCOUNTER LAGS, LOW DOWN THIS VALUE  /!\ 
