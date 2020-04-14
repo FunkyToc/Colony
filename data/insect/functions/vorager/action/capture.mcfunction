@@ -1,0 +1,2 @@
+execute as @e[tag=vorager,nbt={HurtTime:10s},distance=..6,limit=1] at @s as @e[type=minecraft:bat,tag=vorager,distance=..1,limit=1] at @s run function insect:vorager/tool/kill_sneaky
+function insect:vorager/give

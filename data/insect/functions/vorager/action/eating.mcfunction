@@ -1,4 +1,4 @@
 execute as @e[type=minecraft:bat,tag=vorager,distance=0.2..3,scores={Insect_Timer=..0},limit=5,sort=nearest] at @s facing entity @e[type=area_effect_cloud,tag=vora_eater,distance=..3] feet run tp @s ^ ^ ^0.18
 execute as @e[type=minecraft:bat,tag=vorager,distance=..0.4,scores={Insect_Timer=..0},limit=5,sort=nearest] run scoreboard players remove @e[type=area_effect_cloud,tag=vora_eater,distance=..0.4,limit=1] Insect_Timer 1
 execute if entity @e[type=minecraft:bat,tag=vorager,distance=..0.4,scores={Insect_Timer=..0}] at @s run function insect:vorager/particules/eatmod
-execute if score @s Insect_Timer matches ..0 run function insect:vorager/action/ate
+execute if score @s Insect_Timer matches ..0 run function insect:vorager/action/eaten

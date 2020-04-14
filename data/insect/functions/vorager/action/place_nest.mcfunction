@@ -1,1 +1,1 @@
-summon minecraft:area_effect_cloud ~ ~ ~ {Duration:18000,Tags:["vorager_nest","vorager"]}
+summon minecraft:area_effect_cloud ~ ~ ~ {Duration:72000,Tags:["vorager_nest","vorager"]}
