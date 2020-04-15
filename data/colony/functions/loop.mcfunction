@@ -1,1 +1,1 @@
-execute if score vora_enable Insect_Option matches 1 run function colony:vorager/loop
+execute if score vora_enable Colony_Option matches 1 run function colony:vorager/loop

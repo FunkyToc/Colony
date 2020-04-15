@@ -1,7 +1,7 @@
-scoreboard objectives remove Insect_Option
-scoreboard objectives remove Insect_Timer
-scoreboard objectives remove Insect_Reprod
-scoreboard objectives add Insect_DmgDealt
+scoreboard objectives remove Colony_Option
+scoreboard objectives remove Colony_Timer
+scoreboard objectives remove Colony_Reprod
+scoreboard objectives add Colony_DmgDealt
 function colony:kill_colony
 datapack disable "file/Colony"
 datapack disable "file/Colony-master"

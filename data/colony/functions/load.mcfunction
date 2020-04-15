@@ -1,7 +1,7 @@
-scoreboard objectives add Insect_Option dummy {"text":"Insect_Option","color":"dark_green"}
-scoreboard objectives add Insect_Timer dummy {"text":"Insect_Timer","color":"dark_green"}
-scoreboard objectives add Insect_Reprod dummy {"text":"Insect_Reprod","color":"dark_green"}
-scoreboard objectives add Insect_DmgDealt minecraft.custom:minecraft.damage_dealt {"text":"Insect_DmgDealt","color":"dark_green"}
+scoreboard objectives add Colony_Option dummy {"text":"Colony_Option","color":"dark_green"}
+scoreboard objectives add Colony_Timer dummy {"text":"Colony_Timer","color":"dark_green"}
+scoreboard objectives add Colony_Reprod dummy {"text":"Colony_Reprod","color":"dark_green"}
+scoreboard objectives add Colony_DmgDealt minecraft.custom:minecraft.damage_dealt {"text":"Colony_DmgDealt","color":"dark_green"}
 function colony:properties
 
 # insects
