@@ -6,7 +6,7 @@ function colony:vorager/action/log_check
 execute as @e[type=minecraft:area_effect_cloud,tag=vorager_nest] at @s if entity @p[distance=..16] run function colony:vorager/action/nest
 
 # player interact
-execute as @a[scores={Colony_DmgDealt=1..}] at @s if entity @e[tag=vorager,nbt={HurtTime:10s},distance=..6] run function colony:vorager/action/capture
+execute as @a[scores={Colony_DmgDealt=1..}] at @s if entity @e[type=minecraft:bat,tag=vorager,nbt={HurtTime:10s},distance=..6] run function colony:vorager/action/capture
 execute as @e[type=minecraft:item,nbt={Item:{id:"minecraft:kelp",Count:1b,tag:{vorager:1b}}}] at @s run function colony:vorager/action/summon
 
 # food path
