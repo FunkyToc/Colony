@@ -1,6 +1,6 @@
 {
     "pack": {
-        "description": "Colony - by FunkyToc",
-        "pack_format": 1
+        "pack_format": 5,
+        "description": "Colony - by FunkyToc"
     }
 }
